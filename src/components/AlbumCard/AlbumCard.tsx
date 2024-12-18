@@ -14,7 +14,13 @@ const AlbumCard = ({ albumURL, imageURL, imageAlt, title, artist }: AlbumCardPro
   return (
     <Card className="album-card">
       <a href={albumURL} target="_blank" rel="noopener noreferrer">
-        <Card.Img className="rounded shadow" variant="top" src={imageURL} alt={imageAlt} />
+        <Card.Img
+          className="rounded shadow"
+          variant="top"
+          src={imageURL}
+          alt={imageAlt}
+          title="Spotify"
+        />
       </a>
       <Card.Body className="pt-4">
         <Card.Title>

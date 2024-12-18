@@ -15,6 +15,29 @@ const projects = [
     technologies: <span>React Native, TypeScript, Expo</span>,
   },
   {
+    imageURL: 'images/projects/ImprovingAAVESpeechToText.png',
+    imageAlt: 'Improving AAVE Speech-to-Text',
+    title: 'Improving AAVE Speech-to-Text',
+    date: 'October 2024 - December 2024',
+    text: (
+      <span>A fine-tuned OpenAI Whisper model that enhances speech-to-text for AAVE speakers.</span>
+    ),
+    codeURL: 'https://github.com/melvinrajendran/Improving-AAVE-Speech-to-Text',
+    technologies: (
+      <span>
+        Python, PyTorch,{' '}
+        <a
+          href="https://github.com/openai/whisper"
+          className="link-white"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Whisper
+        </a>
+      </span>
+    ),
+  },
+  {
     imageURL: 'images/projects/BitTorrentClient.png',
     imageAlt: 'BitTorrent Client',
     title: 'BitTorrent Client',
@@ -41,13 +64,13 @@ const projects = [
   },
   {
     imageURL: 'images/projects/SP500StockPriceAnalysis.png',
-    imageAlt: 'S&P Stock Price Analysis',
+    imageAlt: 'S&P 500 Stock Price Analysis',
     projectURL: 'https://melvinrajendran.github.io/SP500-Stock-Price-Analysis/',
-    title: 'S&P Stock Price Analysis',
+    title: 'S&P 500 Stock Price Analysis',
     date: 'May 2023',
     text: (
       <span>
-        A data science tutorial analyzing stocks on the S&P 500. Uses LSTM modeling to predict stock
+        A data science tutorial analyzing stocks in the S&P 500. Uses LSTM modeling to predict stock
         prices.
       </span>
     ),
@@ -55,9 +78,9 @@ const projects = [
     technologies: <span>Python, Keras, Scikit-Learn</span>,
   },
   {
-    imageURL: 'images/projects/QUESTechDatathon.png',
-    imageAlt: 'QUESTech Datathon',
-    title: 'QUESTech Datathon',
+    imageURL: 'images/projects/TweetsAndTeslaCancellations.png',
+    imageAlt: 'Tweets and Tesla Cancellations',
+    title: 'Tweets and Tesla Cancellations',
     date: 'March 2023',
     text: (
       <span>
@@ -65,7 +88,7 @@ const projects = [
         cancellation.
       </span>
     ),
-    codeURL: 'https://github.com/melvinrajendran/QUESTech-Datathon',
+    codeURL: 'https://github.com/melvinrajendran/Tweets-and-Tesla-Cancellations',
     technologies: <span>Python, NLTK</span>,
   },
   {

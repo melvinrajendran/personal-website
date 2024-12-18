@@ -3,6 +3,20 @@ import React from 'react';
 
 const experiences = [
   {
+    organization: 'JPMorgan Chase & Co.',
+    roles: [
+      {
+        role: 'Software Engineer',
+        startDate: 'February 2025',
+        endDate: 'Present',
+        bullets: [
+          'Work on the electronic fixed-income trading platform in the Commercial & Investment Bank.',
+          'Develop features for credit-bond trading, leveraging technologies including Java, Spring Boot, and Jenkins.',
+        ],
+      },
+    ],
+  },
+  {
     organization: 'PayPal',
     roles: [
       {
@@ -54,90 +68,6 @@ const experiences = [
             data setup speed for developers testing the various user flows.
           </span>,
           "Developed the user interface and service calls for the Choose Your Credit Offers page (presents financing options to users in checkout), furthering the team's ongoing migration effort.",
-        ],
-      },
-    ],
-  },
-  {
-    organization: 'QUESTech',
-    roles: [
-      {
-        role: 'Board Member',
-        startDate: 'September 2022',
-        endDate: 'Present',
-        bullets: [
-          <span>
-            Plan events to engage 250+{' '}
-            <a
-              href="https://www.rhsmith.umd.edu/quest"
-              className="link-off-white"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              QUEST Honors Program
-            </a>{' '}
-            students with emerging technologies in real-world applications.
-          </span>,
-          'Maintain a comprehensive intranet platform to consolidate program resources and improve access for current students, alumni, and faculty members.',
-          'Host annual alumni panel with 10+ speakers to provide insights into data science, software engineering, and product/program management in modern industries.',
-          'Prepare and conduct 15-minute presentations on web development and prompt engineering at annual technology fair, encouraging students to build career development skills.',
-          <span>
-            Won 1st place at{' '}
-            <a
-              href="https://blog.umd.edu/questpress/2023/03/17/the-quest-for-data-highlights-from-quests-annual-datathon/"
-              className="link-off-white"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              2023 QUESTech Datathon
-            </a>{' '}
-            ($500) for analyzing how Elon Musk&apos;s tweets correlate with Tesla order
-            cancellation.
-          </span>,
-        ],
-      },
-    ],
-  },
-  {
-    organization: 'Bitcamp',
-    roles: [
-      {
-        role: 'Senior Advisor',
-        startDate: 'June 2024',
-        endDate: 'Present',
-        bullets: [
-          <span>
-            Organize{' '}
-            <a
-              href="https://bit.camp/"
-              className="link-off-white"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Bitcamp
-            </a>
-            , the largest collegiate hackathon on the East Coast that hosts 1,200+ attendees
-            annually.
-          </span>,
-          'Transition leadership to the next Logistics Directors and provide mentorship to the organizing team, supporting a successful event.',
-        ],
-      },
-      {
-        role: 'Logistics Director',
-        startDate: 'June 2023',
-        endDate: 'June 2024',
-        bullets: [
-          'Strategically allocated $175,000 budget to secure necessary logistics contracts and maximize rollover amidst a transition to a new venue.',
-          'Managed a team of 11 members to plan and coordinate utilities (power equipment, audio-visual equipment, and wi-fi), personnel (mentors and volunteers), travel reimbursement, food, and computer hardware for the event.',
-          'Collaborated daily with 6 other teams and their directors to determine exact requirements and clear safety concerns for weekend-of events.',
-        ],
-      },
-      {
-        role: 'Logistics Organizer',
-        startDate: 'November 2021',
-        endDate: 'June 2023',
-        bullets: [
-          'Obtained power distribution contracts and coordinated mentors and volunteers to support attendees and stakeholders throughout the event.',
         ],
       },
     ],

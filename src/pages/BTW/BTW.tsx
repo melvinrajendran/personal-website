@@ -7,7 +7,7 @@ import Blog from '../../components/Blog/Blog';
 
 const BTW = () => {
   useEffect(() => {
-    document.title = 'Melvin Rajendran | Aspiring Software Engineer | BTW';
+    document.title = 'Melvin Rajendran | A Software Engineer | BTW';
   });
 
   return (

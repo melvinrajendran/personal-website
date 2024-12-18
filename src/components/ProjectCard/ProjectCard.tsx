@@ -30,13 +30,13 @@ const ProjectCard = ({
         <Card.Title>
           {projectURL ? (
             <a href={projectURL} target="_blank" rel="noopener noreferrer" className="link-card">
-              <h3 className="h5 d-inline">{title}</h3>
+              <h3 className="d-inline project-title">{title}</h3>
             </a>
           ) : (
-            <h3 className="h5">{title}</h3>
+            <h3 className="project-title">{title}</h3>
           )}
         </Card.Title>
-        <Card.Subtitle className="mb-2">{date}</Card.Subtitle>
+        <Card.Subtitle className="mb-3">{date}</Card.Subtitle>
         <Card.Text>{text}</Card.Text>
         <div className="d-flex align-items-center">
           {codeURL ? (

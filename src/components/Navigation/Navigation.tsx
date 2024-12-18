@@ -38,6 +38,7 @@ const Navigation = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="d-flex justify-content-center"
+                    title={social.title}
                   >
                     <i className={`btn fa-lg social-icon ${social.iconClass}`} />
                   </NavDropdown.Item>
@@ -47,7 +48,9 @@ const Navigation = () => {
           </Nav>
         </Navbar.Collapse>
         <Navbar.Brand href="/" className="letter-icon position-fixed start-50 translate-middle">
-          <span className="letter p-2">M</span>
+          <span className="letter p-2" title="About">
+            M
+          </span>
         </Navbar.Brand>
       </Container>
     </Navbar>

@@ -25,6 +25,8 @@ const skills = [
       'JUnit',
       'TestNG',
       'Spark',
+      'PyTorch',
+      'Matplotlib',
       'React',
       'Next.js',
       'Node.js',
