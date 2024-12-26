@@ -22,7 +22,7 @@ const projects = [
     text: (
       <span>A fine-tuned OpenAI Whisper model that enhances speech-to-text for AAVE speakers.</span>
     ),
-    codeURL: 'https://github.com/melvinrajendran/Improving-AAVE-Speech-to-Text',
+    codeURL: 'https://github.com/melvinrajendran/improving-aave-speech-to-text',
     technologies: (
       <span>
         Python, PyTorch,{' '}
@@ -47,7 +47,7 @@ const projects = [
         A full-featured BitTorrent v1.0 client with support for downloading and uploading files.
       </span>
     ),
-    codeURL: 'https://github.com/melvinrajendran/BitTorrent-Client',
+    codeURL: 'https://github.com/melvinrajendran/bittorrent-client',
     technologies: (
       <span>
         Go,{' '}
@@ -74,7 +74,7 @@ const projects = [
         prices.
       </span>
     ),
-    codeURL: 'https://github.com/melvinrajendran/SP500-Stock-Price-Analysis',
+    codeURL: 'https://github.com/melvinrajendran/sp500-stock-price-analysis',
     technologies: <span>Python, Keras, Scikit-Learn</span>,
   },
   {
@@ -88,7 +88,7 @@ const projects = [
         cancellation.
       </span>
     ),
-    codeURL: 'https://github.com/melvinrajendran/Tweets-and-Tesla-Cancellations',
+    codeURL: 'https://github.com/melvinrajendran/tweets-and-tesla-cancellations',
     technologies: <span>Python, NLTK</span>,
   },
   {
@@ -103,7 +103,7 @@ const projects = [
         explicit and clean.
       </span>
     ),
-    codeURL: 'https://github.com/melvinrajendran/Convertify',
+    codeURL: 'https://github.com/melvinrajendran/convertify',
     technologies: (
       <span>
         React,{' '}
