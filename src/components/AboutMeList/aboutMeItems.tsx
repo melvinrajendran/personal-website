@@ -1,6 +1,6 @@
 const aboutMeItems = [
   {
-    text: "I'm passionate about large-scale, impactful products and love learning how they're built.",
+    text: "I'm passionate about impactful products, and I love learning how they're built.",
     iconClass: 'fas fa-globe',
   },
   {
