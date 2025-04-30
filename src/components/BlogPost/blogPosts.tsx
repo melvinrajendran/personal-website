@@ -8,6 +8,22 @@ type CalendarMonth = {
 };
 
 const blogPosts = [
+  // {
+  //   iconClass: 'fas fa-robot',
+  //   title: 'job security in the age of ai',
+  //   month: 'April',
+  //   day: 30,
+  //   year: 2025,
+  //   body: [
+  //     <p>
+  //       As I&apos;m sure you&apos;ve already noticed, AI can do a lot in 2025: [insert list here],
+  //       among other things. In years to come, this list will likely get bigger and bigger. With this
+  //       comes an interesting question for many professionals to think about: In the future of my
+  //       industry, where will humans add value?
+  //     </p>,
+  //     <p>Answer TBD whenever I finish this post.</p>,
+  //   ],
+  // },
   {
     iconClass: 'fas fa-microphone',
     title: 'a blog post about another blog',

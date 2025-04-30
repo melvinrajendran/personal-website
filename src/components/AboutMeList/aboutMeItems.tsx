@@ -8,7 +8,7 @@ const aboutMeItems = [
     iconClass: 'fas fa-users',
   },
   {
-    text: "I'm currently working as a software engineer at JPMorgan Chase & Co.",
+    text: 'I currently work as a software engineer at JPMorganChase.',
     iconClass: 'fas fa-university',
   },
   {

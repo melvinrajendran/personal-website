@@ -20,6 +20,7 @@ const skills = [
       'Spring Boot',
       'JUnit',
       'TestNG',
+      'Cucumber',
       'Spark',
       'PyTorch',
       'React',
@@ -35,6 +36,10 @@ const skills = [
   {
     title: 'Developer Tools',
     items: ['Git', 'GitHub', 'Unix', 'Maven', 'Docker', 'Kubernetes', 'Jenkins', 'MongoDB'],
+  },
+  {
+    title: 'Certifications',
+    items: ['AWS Certified Cloud Practitioner'],
   },
 ];
 

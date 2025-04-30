@@ -3,15 +3,15 @@ import React from 'react';
 
 const experiences = [
   {
-    organization: 'JPMorgan Chase & Co.',
+    organization: 'JPMorganChase',
     roles: [
       {
         role: 'Software Engineer',
         startDate: 'February 2025',
         endDate: 'Present',
         bullets: [
-          'Work on the electronic fixed-income trading platform in the Commercial & Investment Bank.',
-          'Develop features for credit-bond trading, leveraging technologies including Java, Spring Boot, and Jenkins.',
+          'Work on the FICC e-trading platform in the Commercial & Investment Bank.',
+          'Develop features for credit-bond trading, leveraging technologies including Java, Maven, Spring Boot, Cucumber, AMPS, and Jenkins.',
         ],
       },
     ],
