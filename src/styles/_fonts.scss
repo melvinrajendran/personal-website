@@ -1,7 +1,7 @@
-$bodyFontFamily: 'Raleway', sans-serif;
+$bodyFontFamily: var(--font-raleway), 'Raleway', sans-serif;
 $bodyFontWeight: 400;
-$headingFontFamily: 'Poppins', sans-serif;
+$headingFontFamily: var(--font-poppins), 'Poppins', sans-serif;
 $headingFontWeight: 600;
 $codeFontFamily: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 $codeFontWeight: 400;
-$iconFontFamily: 'Meddon', cursive;
+$iconFontFamily: var(--font-meddon), 'Meddon', cursive;

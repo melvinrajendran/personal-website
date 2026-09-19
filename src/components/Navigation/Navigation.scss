@@ -16,12 +16,16 @@ nav {
   text-decoration: underline 0.2em;
   text-decoration-color: $offWhite;
   text-underline-offset: 0.2em;
-  transition: color 500ms, text-decoration-color 500ms;
+  transition:
+    color 500ms,
+    text-decoration-color 500ms;
 }
 
 .nav-link:hover {
   text-decoration-color: $fernGreen;
-  transition: color 500ms, text-decoration-color 500ms;
+  transition:
+    color 500ms,
+    text-decoration-color 500ms;
 }
 
 #navbarScrollingDropdown::after {

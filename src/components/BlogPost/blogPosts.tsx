@@ -92,7 +92,7 @@ const blogPosts = [
       </p>,
       <img
         className="rounded-corners shadow my-4 img-fluid mx-auto d-block"
-        src="images/blog/brick.jpeg"
+        src="/images/blog/brick.jpeg"
         alt="Brick"
       />,
     ],
@@ -158,7 +158,7 @@ const blogPosts = [
         className="rounded-corners shadow mt-4 img-fluid mx-auto d-block"
         width="450"
         height="600"
-        src="images/blog/workspace.jpg"
+        src="/images/blog/workspace.jpg"
         alt="Melvin's workspace"
       />,
     ],

@@ -2,7 +2,7 @@ import React from 'react';
 
 const projects = [
   {
-    imageURL: 'images/projects/Emerald.png',
+    imageURL: '/images/projects/Emerald.png',
     imageAlt: 'Emerald',
     projectURL: 'https://emerald.money',
     title: 'Emerald',
@@ -15,7 +15,7 @@ const projects = [
     technologies: <span>React Native, TypeScript, Expo</span>,
   },
   {
-    imageURL: 'images/projects/ImprovingAAVESpeechToText.png',
+    imageURL: '/images/projects/ImprovingAAVESpeechToText.png',
     imageAlt: 'Improving AAVE Speech-to-Text',
     title: 'Improving AAVE Speech-to-Text',
     date: 'October 2024 - December 2024',
@@ -38,7 +38,7 @@ const projects = [
     ),
   },
   {
-    imageURL: 'images/projects/BitTorrentClient.png',
+    imageURL: '/images/projects/BitTorrentClient.png',
     imageAlt: 'BitTorrent Client',
     title: 'BitTorrent Client',
     date: 'December 2023 - January 2024',
@@ -63,7 +63,7 @@ const projects = [
     ),
   },
   {
-    imageURL: 'images/projects/SP500StockPriceAnalysis.png',
+    imageURL: '/images/projects/SP500StockPriceAnalysis.png',
     imageAlt: 'S&P 500 Stock Price Analysis',
     projectURL: 'https://melvinrajendran.github.io/SP500-Stock-Price-Analysis/',
     title: 'S&P 500 Stock Price Analysis',
@@ -78,7 +78,7 @@ const projects = [
     technologies: <span>Python, Keras, Scikit-Learn</span>,
   },
   {
-    imageURL: 'images/projects/TweetsAndTeslaCancellations.png',
+    imageURL: '/images/projects/TweetsAndTeslaCancellations.png',
     imageAlt: 'Tweets and Tesla Cancellations',
     title: 'Tweets and Tesla Cancellations',
     date: 'March 2023',
@@ -92,7 +92,7 @@ const projects = [
     technologies: <span>Python, NLTK</span>,
   },
   {
-    imageURL: 'images/projects/Convertify.png',
+    imageURL: '/images/projects/Convertify.png',
     imageAlt: 'Convertify',
     projectURL: 'https://convertify.onrender.com',
     title: 'Convertify',

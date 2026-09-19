@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import { Card } from 'react-bootstrap';
+import { Card, CardBody, CardImg, CardSubtitle, CardText, CardTitle } from 'react-bootstrap';
 import './ProjectCard.scss';
 
 type ProjectCardProps = {
@@ -25,9 +25,9 @@ const ProjectCard = ({
 }: ProjectCardProps) => {
   return (
     <Card className="project-card bg-white shadow">
-      <Card.Img className="card-img" src={imageURL} alt={imageAlt} />
-      <Card.Body className="pt-4">
-        <Card.Title>
+      <CardImg className="card-img" src={imageURL} alt={imageAlt} />
+      <CardBody className="pt-4">
+        <CardTitle>
           {projectURL ? (
             <a href={projectURL} target="_blank" rel="noopener noreferrer" className="link-card">
               <h3 className="d-inline project-title">{title}</h3>
@@ -35,9 +35,9 @@ const ProjectCard = ({
           ) : (
             <h3 className="project-title">{title}</h3>
           )}
-        </Card.Title>
-        <Card.Subtitle className="mb-3">{date}</Card.Subtitle>
-        <Card.Text>{text}</Card.Text>
+        </CardTitle>
+        <CardSubtitle className="mb-3">{date}</CardSubtitle>
+        <CardText>{text}</CardText>
         <div className="d-flex align-items-center">
           {codeURL ? (
             <a href={codeURL} target="_blank" rel="noopener noreferrer" title="GitHub">
@@ -48,7 +48,7 @@ const ProjectCard = ({
           )}
           <small className="ms-auto text-muted">{technologies}</small>
         </div>
-      </Card.Body>
+      </CardBody>
     </Card>
   );
 };

@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import type { Metadata } from 'next';
 import Section from '../../components/Section/Section';
 import Title from '../../components/Title/Title';
 import Timeline from '../../components/Timeline/Timeline';
@@ -8,11 +9,11 @@ import projects from '../../components/ProjectCard/projects';
 import SkillList from '../../components/SkillList/SkillList';
 import skills from '../../components/SkillList/skills';
 
-const Work = () => {
-  useEffect(() => {
-    document.title = 'Melvin Rajendran | A Software Engineer | Work';
-  });
+export const metadata: Metadata = {
+  title: 'Work',
+};
 
+const Work = () => {
   return (
     <>
       <Title

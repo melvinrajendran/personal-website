@@ -1,4 +1,6 @@
-import React from 'react';
+'use client';
+
+import React, { useCallback, useRef } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { useInView } from 'react-intersection-observer';
 import { CSSTransition } from 'react-transition-group';
@@ -18,12 +20,20 @@ const CourseList = ({ items }: CourseListProps) => {
     threshold: 0.5,
     triggerOnce: true,
   });
+  const nodeRef = useRef<HTMLDivElement | null>(null);
+  const setRefs = useCallback(
+    (node: HTMLDivElement | null) => {
+      nodeRef.current = node;
+      ref(node);
+    },
+    [ref],
+  );
   const numItems = items.length;
   const midIndex = numItems % 2 === 0 ? numItems / 2 : numItems / 2 + 1;
 
   return (
-    <CSSTransition in={inView} timeout={1000} classNames="course-list">
-      <Row ref={ref} className={`${!inView && 'invisible'} p-4 justify-content-center`}>
+    <CSSTransition nodeRef={nodeRef} in={inView} timeout={1000} classNames="course-list">
+      <Row ref={setRefs} className={`${!inView && 'invisible'} p-4 justify-content-center`}>
         {[0, 1].map((index) => {
           const startIndex = index === 0 ? 0 : midIndex;
           const endIndex = index === 0 ? midIndex : numItems;

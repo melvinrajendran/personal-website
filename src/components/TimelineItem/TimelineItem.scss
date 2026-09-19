@@ -26,7 +26,9 @@
 
 .selected-item {
   background-color: $fernGreen;
-  transition: background-color 500ms, color 500ms;
+  transition:
+    background-color 500ms,
+    color 500ms;
 }
 
 .selected-text {

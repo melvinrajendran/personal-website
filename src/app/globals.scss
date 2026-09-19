@@ -1,11 +1,12 @@
-@import 'styles/colors';
-@import 'styles/fonts';
+@import '../styles/colors';
+@import '../styles/fonts';
 
 body {
   background-color: $offWhite;
   padding-top: 3.5rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
-    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: $bodyFontFamily;
@@ -50,13 +51,17 @@ li::marker {
   text-decoration: underline 0.19em;
   text-decoration-color: $offWhite;
   text-underline-offset: 0.175em;
-  transition: color 500ms, text-decoration-color 500ms;
+  transition:
+    color 500ms,
+    text-decoration-color 500ms;
 }
 
 .link-off-white:hover {
   color: $outerSpace;
   text-decoration-color: $fernGreen;
-  transition: color 500ms, text-decoration-color 500ms;
+  transition:
+    color 500ms,
+    text-decoration-color 500ms;
 }
 
 .link-white {
@@ -65,13 +70,17 @@ li::marker {
   text-decoration: underline 0.19em;
   text-decoration-color: $white;
   text-underline-offset: 0.175em;
-  transition: color 500ms, text-decoration-color 500ms;
+  transition:
+    color 500ms,
+    text-decoration-color 500ms;
 }
 
 .link-white:hover {
   color: $outerSpace;
   text-decoration-color: $fernGreen;
-  transition: color 500ms, text-decoration-color 500ms;
+  transition:
+    color 500ms,
+    text-decoration-color 500ms;
 }
 
 .link-card {
@@ -80,13 +89,17 @@ li::marker {
   text-decoration: underline 0.19em;
   text-decoration-color: $white;
   text-underline-offset: 0.175em;
-  transition: color 500ms, text-decoration-color 500ms;
+  transition:
+    color 500ms,
+    text-decoration-color 500ms;
 }
 
 .link-card:hover {
   color: $fernGreen;
   text-decoration-color: $fernGreen;
-  transition: color 500ms, text-decoration-color 500ms;
+  transition:
+    color 500ms,
+    text-decoration-color 500ms;
 }
 
 /* Images and Cards */

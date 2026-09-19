@@ -1,5 +1,5 @@
 import React from 'react';
-import './NotFound.scss';
+import './not-found.scss';
 import { Col, Container, Row } from 'react-bootstrap';
 
 const NotFound = () => {

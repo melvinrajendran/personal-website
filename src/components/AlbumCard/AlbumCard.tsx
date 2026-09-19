@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
+import { Card, CardBody, CardImg, CardText, CardTitle } from 'react-bootstrap';
 import './AlbumCard.scss';
 
 type AlbumCardProps = {
@@ -14,7 +14,7 @@ const AlbumCard = ({ albumURL, imageURL, imageAlt, title, artist }: AlbumCardPro
   return (
     <Card className="album-card">
       <a href={albumURL} target="_blank" rel="noopener noreferrer">
-        <Card.Img
+        <CardImg
           className="rounded shadow"
           variant="top"
           src={imageURL}
@@ -22,12 +22,12 @@ const AlbumCard = ({ albumURL, imageURL, imageAlt, title, artist }: AlbumCardPro
           title="Spotify"
         />
       </a>
-      <Card.Body className="pt-4">
-        <Card.Title>
+      <CardBody className="pt-4">
+        <CardTitle>
           <h3 className="h5">{title}</h3>
-        </Card.Title>
-        <Card.Text>{artist}</Card.Text>
-      </Card.Body>
+        </CardTitle>
+        <CardText>{artist}</CardText>
+      </CardBody>
     </Card>
   );
 };
