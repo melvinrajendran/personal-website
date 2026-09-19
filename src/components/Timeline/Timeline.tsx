@@ -1,4 +1,6 @@
-import React, { ReactElement, useState } from 'react';
+'use client';
+
+import React, { ReactElement, useRef, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import './Timeline.scss';
 import TimelineDescription from '../TimelineDescription/TimelineDescription';
@@ -23,6 +25,7 @@ type TimelineProps = {
 
 const Timeline = ({ items }: TimelineProps) => {
   const [selectedIndex, setSelectedIndex] = useState(0);
+  const descriptionRef = useRef<HTMLDivElement>(null);
 
   return (
     <Row className="align-items-center gy-4 my-1">
@@ -46,8 +49,17 @@ const Timeline = ({ items }: TimelineProps) => {
         </ul>
       </Col>
       <Col lg={{ span: 7, offset: 2 }} xl={{ span: 6, offset: 1 }}>
-        <CSSTransition key={selectedIndex} in appear timeout={1000} classNames="description">
-          <TimelineDescription {...items[selectedIndex]} />
+        <CSSTransition
+          key={selectedIndex}
+          nodeRef={descriptionRef}
+          in
+          appear
+          timeout={1000}
+          classNames="description"
+        >
+          <div ref={descriptionRef}>
+            <TimelineDescription {...items[selectedIndex]} />
+          </div>
         </CSSTransition>
       </Col>
     </Row>

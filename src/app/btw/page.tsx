@@ -1,15 +1,16 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import type { Metadata } from 'next';
 import Title from '../../components/Title/Title';
 import Section from '../../components/Section/Section';
 import AlbumList from '../../components/AlbumList/AlbumList';
 import albums from '../../components/AlbumCard/albums';
 import Blog from '../../components/Blog/Blog';
 
-const BTW = () => {
-  useEffect(() => {
-    document.title = 'Melvin Rajendran | A Software Engineer | BTW';
-  });
+export const metadata: Metadata = {
+  title: 'BTW',
+};
 
+const BTW = () => {
   return (
     <>
       <Title
