@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-key */
 import React from 'react';
-import { includes } from 'lodash';
+import { some } from 'lodash';
 
 type CalendarMonth = {
   month: string;
@@ -216,7 +216,13 @@ blogPosts.forEach((post) => {
     year: post.year,
   };
 
-  if (!includes(activeMonths, currentMonth)) {
+  const isActive = some(
+    activeMonths,
+    (activeMonth) =>
+      activeMonth.month === currentMonth.month && activeMonth.year === currentMonth.year,
+  );
+
+  if (!isActive) {
     activeMonths.push(currentMonth);
   }
 });
