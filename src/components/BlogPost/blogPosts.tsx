@@ -38,7 +38,7 @@ const blogPosts = [
       </p>,
       <p>
         While rebalancing this type of portfolio is seemingly simple, there are important
-        considerations that include tax-efficient fund placement and fund limitations in certain
+        considerations, including tax-efficient fund placement and fund limitations in certain
         accounts (such as an employer 401(k)), to name a few. After I&apos;d calculated the
         rebalancing trades by hand on two separate occasions, correcting several mistakes in the
         process, I realized I needed a more robust solution.
@@ -53,10 +53,10 @@ const blogPosts = [
         >
           Three-Fund Rebalance
         </a>{' '}
-        was born, a CLI that, given an investor&apos;s target asset allocation, rebalancing bands,
-        and account holdings, computes the trades to rebalance their three-fund portfolio across
-        multiple accounts. If they enter cash in any of their accounts, the tool suggests trades to
-        fully invest it and approximate their targets.
+        was born: a CLI that, given an investor&apos;s target asset allocation, rebalancing bands,
+        and account holdings, computes the trades needed to rebalance their three-fund portfolio
+        across multiple accounts. If they enter cash in any of their accounts, the tool suggests
+        trades to fully invest it and approximate their targets.
       </p>,
       <p>
         Some notable design decisions include ingesting account holdings via user inputs, which is
@@ -66,9 +66,10 @@ const blogPosts = [
         which make it simpler and more accessible.
       </p>,
       <p>
-        If this tool serves your needs, or you&apos;re willing to play around with it, I welcome any
-        and all feedback! I&apos;m definitely interested in actively maintaining it to better serve
-        others with an investing style similar to mine.
+        If Three-Fund Rebalance serves your needs, or you&apos;re willing to play around with it,
+        I&apos;d love for you to use it and share your thoughts! I&apos;m definitely interested in
+        actively maintaining it to better serve others with an investing style similar to mine, so
+        your feedback will not go unnoticed.
       </p>,
       <p>
         And if you&apos;re looking to learn more about these topics, I&apos;d highly recommend the
