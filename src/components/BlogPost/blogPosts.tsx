@@ -61,7 +61,7 @@ const blogPosts = [
       <p>
         Some notable design decisions include ingesting account holdings via user inputs, which is
         intentional. In my experience, this is much faster than waiting for brokerages to publish
-        account holding to Plaid, for example, which often occurs only once daily. In addition, the
+        account holdings to Plaid, for example, which often occurs only once daily. In addition, the
         tool collects no cost basis data and uses heuristics to determine asset location, both of
         which make it simpler and more accessible.
       </p>,
