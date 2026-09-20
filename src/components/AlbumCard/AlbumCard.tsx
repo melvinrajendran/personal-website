@@ -15,7 +15,7 @@ const AlbumCard = ({ albumURL, imageURL, imageAlt, title, artist }: AlbumCardPro
     <Card className="album-card">
       <a href={albumURL} target="_blank" rel="noopener noreferrer">
         <CardImg
-          className="rounded shadow"
+          className="album-img rounded shadow"
           variant="top"
           src={imageURL}
           alt={imageAlt}

@@ -25,7 +25,7 @@ const ProjectCard = ({
 }: ProjectCardProps) => {
   return (
     <Card className="project-card bg-white shadow">
-      <CardImg className="card-img" src={imageURL} alt={imageAlt} />
+      <CardImg className="project-img" src={imageURL} alt={imageAlt} />
       <CardBody className="pt-4">
         <CardTitle>
           {projectURL ? (

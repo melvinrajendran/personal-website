@@ -2,17 +2,18 @@ import React from 'react';
 
 const projects = [
   {
-    imageURL: '/images/projects/Emerald.png',
-    imageAlt: 'Emerald',
-    projectURL: 'https://emerald.money',
-    title: 'Emerald',
-    date: 'June 2024 - Present',
+    imageURL: '/images/projects/ThreeFundRebalance.png',
+    imageAlt: 'Three-Fund Rebalance',
+    title: 'Three-Fund Rebalance',
+    date: 'August 2026 - September 2026',
     text: (
       <span>
-        A personal finance app that leverages NLP to simplify budgeting and wealth management.
+        An interactive CLI that computes trades to rebalance a three-fund portfolio across multiple
+        accounts.
       </span>
     ),
-    technologies: <span>React Native, TypeScript, Expo</span>,
+    codeURL: 'https://github.com/melvinrajendran/three-fund-rebalance',
+    technologies: <span>Python, SciPy</span>,
   },
   {
     imageURL: '/images/projects/ImprovingAAVESpeechToText.png',

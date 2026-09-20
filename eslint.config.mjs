@@ -1,12 +1,12 @@
 import { defineConfig, globalIgnores } from 'eslint/config';
 import nextVitals from 'eslint-config-next/core-web-vitals';
 import nextTs from 'eslint-config-next/typescript';
-import prettierRecommended from 'eslint-plugin-prettier/recommended';
+import prettierConfig from 'eslint-config-prettier/flat';
 
 export default defineConfig([
   ...nextVitals,
   ...nextTs,
-  prettierRecommended,
+  prettierConfig,
   {
     rules: {
       curly: 'error',
@@ -14,7 +14,6 @@ export default defineConfig([
       'vars-on-top': 'error',
       'func-names': ['error', 'always'],
       camelcase: 'error',
-      'prettier/prettier': 'error',
       '@next/next/no-img-element': 'off',
     },
   },

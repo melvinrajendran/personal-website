@@ -16,8 +16,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "npx serve out",
-    "lint": "eslint . --fix",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run lint && npm run format:check && npm run typecheck",
     "prepare": "husky"
   },
   "dependencies": {
@@ -41,14 +45,16 @@
     "eslint": "^9.39.5",
     "eslint-config-next": "^16.3.5",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-prettier": "^5.5.6",
     "husky": "^9.1.7",
     "lint-staged": "^17.5.1",
     "prettier": "^3.9.8",
     "typescript": "^5.9.3"
   },
   "lint-staged": {
-    "*.{js,mjs,jsx,ts,tsx}": "eslint --fix",
-    "*.{json,js,mjs,ts,jsx,tsx,scss,yml}": "prettier --write"
+    "*.{js,mjs,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,jsonc,css,scss,md,yml,yaml}": "prettier --write"
   }
 }

@@ -35,7 +35,18 @@ const skills = [
   },
   {
     title: 'Developer Tools',
-    items: ['Git', 'GitHub', 'Unix', 'Maven', 'Docker', 'Kubernetes', 'Jenkins', 'MongoDB'],
+    items: [
+      'Claude Code',
+      'GitHub Copilot',
+      'Git',
+      'GitHub',
+      'Unix',
+      'Maven',
+      'Docker',
+      'Kubernetes',
+      'Jenkins',
+      'MongoDB',
+    ],
   },
   {
     title: 'Certifications',

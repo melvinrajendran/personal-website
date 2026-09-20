@@ -7,4 +7,16 @@
   min-width: 16rem;
   border: none;
   background-color: $offWhite;
+  transition: filter 500ms;
+
+  &:hover {
+    .album-img {
+      filter: grayscale(0%);
+    }
+  }
+}
+
+.album-img {
+  filter: grayscale(100%);
+  transition: filter 500ms;
 }

@@ -8,22 +8,116 @@ type CalendarMonth = {
 };
 
 const blogPosts = [
-  // {
-  //   iconClass: 'fas fa-robot',
-  //   title: 'job security in the age of ai',
-  //   month: 'April',
-  //   day: 30,
-  //   year: 2025,
-  //   body: [
-  //     <p>
-  //       As I&apos;m sure you&apos;ve already noticed, AI can do a lot in 2025: [insert list here],
-  //       among other things. In years to come, this list will likely get bigger and bigger. With this
-  //       comes an interesting question for many professionals to think about: In the future of my
-  //       industry, where will humans add value?
-  //     </p>,
-  //     <p>Answer TBD whenever I finish this post.</p>,
-  //   ],
-  // },
+  {
+    iconClass: 'fas fa-chart-pie',
+    title: 'investing yap',
+    month: 'September',
+    day: 20,
+    year: 2026,
+    body: [
+      <p>
+        After moving to New York City and starting my first full-time job, I found myself reading a
+        lot about personal finance and investing. This was mostly to learn what to do with my next
+        paycheck and avoid making stupid decisions, but it also helped me create a reliable,
+        evidence-based financial plan that I simply didn&apos;t have to worry about all the time
+        (but could still yap about endlessly).
+      </p>,
+      <p>
+        My current investing philosophy involves a classic{' '}
+        <a
+          href="https://www.bogleheads.org/wiki/Three-fund_portfolio"
+          className="link-off-white"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          three-fund portfolio
+        </a>
+        , which aims to provide broad diversification, low costs, and tax efficiency, all while
+        outperforming the vast majority of individual and professional investors over long time
+        horizons.
+      </p>,
+      <p>
+        While rebalancing this type of portfolio is seemingly simple, there are important
+        considerations that include tax-efficient fund placement and fund limitations in certain
+        accounts (such as an employer 401(k)), to name a few. After I&apos;d calculated the
+        rebalancing trades by hand on two separate occasions, correcting several mistakes in the
+        process, I realized I needed a more robust solution.
+      </p>,
+      <p>
+        Hence,{' '}
+        <a
+          href="https://github.com/melvinrajendran/three-fund-rebalance"
+          className="link-off-white"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Three-Fund Rebalance
+        </a>{' '}
+        was born, a CLI that, given an investor&apos;s target asset allocation, rebalancing bands,
+        and account holdings, computes the trades to rebalance their three-fund portfolio across
+        multiple accounts. If they enter cash in any of their accounts, the tool suggests trades to
+        fully invest it and approximate their targets.
+      </p>,
+      <p>
+        Some notable design decisions include ingesting account holdings via user inputs, which is
+        intentional. In my experience, this is much faster than waiting for brokerages to publish
+        account holding to Plaid, for example, which often occurs only once daily. In addition, the
+        tool collects no cost basis data and uses heuristics to determine asset location, both of
+        which make it simpler and more accessible.
+      </p>,
+      <p>
+        If this tool serves your needs, or you&apos;re willing to play around with it, I welcome any
+        and all feedback! I&apos;m definitely interested in actively maintaining it to better serve
+        others with an investing style similar to mine.
+      </p>,
+      <p>
+        And if you&apos;re looking to learn more about these topics, I&apos;d highly recommend the
+        following resources. They&apos;ve personally helped improve my financial literacy:
+      </p>,
+      <ul>
+        <li>
+          <a
+            href="https://www.bogleheads.org/wiki/Main_Page"
+            className="link-off-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Bogleheads Wiki
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/personalfinanceclub/"
+            className="link-off-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Personal Finance Club
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/moneyguyshow"
+            className="link-off-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            The Money Guy Show
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://a.co/d/08uDe07M"
+            className="link-off-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            The Simple Path to Wealth
+          </a>
+        </li>
+      </ul>,
+    ],
+  },
   {
     iconClass: 'fas fa-microphone',
     title: 'a blog post about another blog',
