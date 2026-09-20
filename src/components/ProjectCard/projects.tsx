@@ -66,7 +66,7 @@ const projects = [
   {
     imageURL: '/images/projects/SP500StockPriceAnalysis.png',
     imageAlt: 'S&P 500 Stock Price Analysis',
-    projectURL: 'https://melvinrajendran.github.io/SP500-Stock-Price-Analysis/',
+    projectURL: 'https://melvinrajendran.github.io/sp500-stock-price-analysis/',
     title: 'S&P 500 Stock Price Analysis',
     date: 'May 2023',
     text: (
