@@ -8,7 +8,7 @@ const aboutMeItems = [
     iconClass: 'fas fa-brain',
   },
   {
-    text: "I currently work in FICC e-trading at JPMorganChase's Commercial & Investment Bank.",
+    text: "I currently work in FICC e-trading at J.P. Morgan's Commercial & Investment Bank.",
     iconClass: 'fas fa-university',
   },
   {
