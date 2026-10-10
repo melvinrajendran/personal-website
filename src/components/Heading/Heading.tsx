@@ -12,7 +12,8 @@ const Heading = ({ text }: HeadingProps) => {
   return (
     <a href={`#${ref}`}>
       <h2 className="display-4 mb-3" id={ref}>
-        {`// ${text.toLowerCase()}`}
+        <span aria-hidden="true">{'// '}</span>
+        {text.toLowerCase()}
       </h2>
     </a>
   );

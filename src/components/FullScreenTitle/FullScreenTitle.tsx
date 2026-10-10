@@ -20,8 +20,10 @@ const FullScreenTitle = ({ title, subtitle, imageSrc, imageAlt }: FullScreenTitl
     <Container className="p-4">
       <Row className="p-5 fs-title-container align-items-center">
         <Col xl={7} className="text-center text-xl-start pb-5 pb-xl-0">
-          <h1 className="display-2 mb-4">
-            <Typewriter options={{ strings: title, autoStart: true }} />
+          <h1 className="display-2 mb-4" aria-label={title}>
+            <span aria-hidden="true">
+              <Typewriter options={{ strings: title, autoStart: true }} />
+            </span>
           </h1>
           <CSSTransition nodeRef={subtitleRef} in appear timeout={4000} classNames="fs-subtitle">
             <p ref={subtitleRef} className="fs-3">

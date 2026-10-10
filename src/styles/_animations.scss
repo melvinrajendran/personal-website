@@ -8,4 +8,8 @@
   transform: initial;
   transition: all $duration cubic-bezier(0.33, 1, 0.68, 1);
   transition-delay: $delay;
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
 }

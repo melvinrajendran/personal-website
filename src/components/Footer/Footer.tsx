@@ -15,11 +15,12 @@ const Footer = () => {
               <Col key={index} xs={2} lg={1} className="d-flex justify-content-center">
                 <a
                   title={social.title}
+                  aria-label={social.title}
                   href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  target={social.external ? '_blank' : undefined}
+                  rel={social.external ? 'noopener noreferrer' : undefined}
                 >
-                  <i className={`social-icon btn fa-lg ${social.iconClass}`} />
+                  <i className={`social-icon btn fa-lg ${social.iconClass}`} aria-hidden="true" />
                 </a>
               </Col>
             );

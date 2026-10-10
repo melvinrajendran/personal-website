@@ -1,6 +1,11 @@
 @import '../../styles/colors';
+@import '../../styles/fonts';
 
 .timeline-item {
+  display: block;
+  border: none;
+  text-align: start;
+  color: inherit;
   background-color: #fff;
   margin: 1.25rem 0;
   min-width: 17.5rem;
@@ -24,6 +29,12 @@
   box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.2);
 }
 
+.timeline-item-title {
+  font-family: $headingFontFamily;
+  font-weight: $headingFontWeight;
+  color: $fernGreen;
+}
+
 .selected-item {
   background-color: $fernGreen;
   transition:
@@ -37,8 +48,4 @@
 
 .selected-subtext {
   color: $platinum;
-}
-
-.unclickable {
-  pointer-events: none;
 }

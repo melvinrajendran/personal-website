@@ -21,20 +21,24 @@ const TimelineItem = ({
   const isSelected = selectedIndex === index;
 
   return (
-    <li
-      className={`timeline-item rounded ml-3 p-4 shadow ${isSelected && 'selected-item'}`}
-      onClick={() => setSelectedIndex(index)}
-      onKeyDown={(event) => event.key === 'Enter' && setSelectedIndex(index)}
-      tabIndex={0}
-    >
-      <div className="unclickable">
-        <h3 className={`text-start h5 mb-0 ${isSelected && 'selected-text'}`}>{organization}</h3>
-        <div
-          className={`small text-gray text-start mt-2 mb-0 h5 ${isSelected && 'selected-subtext'}`}
+    <li>
+      <button
+        type="button"
+        className={`timeline-item rounded ml-3 p-4 shadow ${isSelected ? 'selected-item' : ''}`}
+        aria-pressed={isSelected}
+        onClick={() => setSelectedIndex(index)}
+      >
+        <span
+          className={`timeline-item-title d-block h5 mb-0 ${isSelected ? 'selected-text' : ''}`}
+        >
+          {organization}
+        </span>
+        <span
+          className={`d-block small text-gray mt-2 mb-0 h5 ${isSelected ? 'selected-subtext' : ''}`}
         >
           {startDate} – {endDate}
-        </div>
-      </div>
+        </span>
+      </button>
     </li>
   );
 };

@@ -188,6 +188,7 @@ const blogPosts = [
       <img
         className="rounded-corners shadow my-4 img-fluid mx-auto d-block"
         src="/images/blog/brick.jpeg"
+        loading="lazy"
         alt="Brick"
       />,
     ],
@@ -254,6 +255,7 @@ const blogPosts = [
         width="450"
         height="600"
         src="/images/blog/workspace.jpg"
+        loading="lazy"
         alt="Melvin's workspace"
       />,
     ],

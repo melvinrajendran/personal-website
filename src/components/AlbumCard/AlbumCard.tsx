@@ -20,6 +20,7 @@ const AlbumCard = ({ albumURL, imageURL, imageAlt, title, artist }: AlbumCardPro
           src={imageURL}
           alt={imageAlt}
           title="Spotify"
+          loading="lazy"
         />
       </a>
       <CardBody className="pt-4">

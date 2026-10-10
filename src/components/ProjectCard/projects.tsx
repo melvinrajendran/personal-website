@@ -16,7 +16,7 @@ const projects = [
     technologies: <span>React Native, TypeScript, Expo</span>,
   },
   {
-    imageURL: '/images/projects/ThreeFundRebalance.png',
+    imageURL: '/images/projects/ThreeFundRebalance.jpg',
     imageAlt: 'Three-Fund Rebalance',
     title: 'Three-Fund Rebalance',
     date: 'August 2026 – September 2026',
@@ -30,7 +30,7 @@ const projects = [
     technologies: <span>Python, SciPy</span>,
   },
   {
-    imageURL: '/images/projects/ImprovingAAVESpeechToText.png',
+    imageURL: '/images/projects/ImprovingAAVESpeechToText.jpg',
     imageAlt: 'Improving AAVE Speech-to-Text',
     title: 'Improving AAVE Speech-to-Text',
     date: 'October 2024 – December 2024',
@@ -53,7 +53,7 @@ const projects = [
     ),
   },
   {
-    imageURL: '/images/projects/BitTorrentClient.png',
+    imageURL: '/images/projects/BitTorrentClient.jpg',
     imageAlt: 'BitTorrent Client',
     title: 'BitTorrent Client',
     date: 'December 2023 – January 2024',
@@ -93,7 +93,7 @@ const projects = [
     technologies: <span>Python, Keras, Scikit-Learn</span>,
   },
   {
-    imageURL: '/images/projects/TweetsAndTeslaCancellations.png',
+    imageURL: '/images/projects/TweetsAndTeslaCancellations.jpg',
     imageAlt: 'Tweets and Tesla Cancellations',
     title: 'Tweets and Tesla Cancellations',
     date: 'March 2023',
@@ -107,7 +107,7 @@ const projects = [
     technologies: <span>Python, NLTK</span>,
   },
   {
-    imageURL: '/images/projects/Convertify.png',
+    imageURL: '/images/projects/Convertify.jpg',
     imageAlt: 'Convertify',
     projectURL: 'https://convertify.onrender.com',
     title: 'Convertify',
