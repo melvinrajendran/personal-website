@@ -13,7 +13,10 @@ const Navigation = () => {
   return (
     <Navbar fixed="top" expand>
       <Container fluid>
-        <Nav className="flex-grow-1 flex-sm-grow-0 justify-content-between justify-content-sm-start me-sm-auto">
+        <Nav
+          activeKey={pathname}
+          className="flex-grow-1 flex-sm-grow-0 justify-content-between justify-content-sm-start me-sm-auto"
+        >
           <Navbar.Brand
             as={Link}
             href="/"
@@ -27,7 +30,7 @@ const Navigation = () => {
           <Nav.Link
             as={Link}
             href="/"
-            className={`me-sm-3 me-md-4 mx-lg-4 mx-xl-5 ${pathname === '/' ? 'active' : ''}`}
+            className="me-sm-3 me-md-4 mx-lg-4 mx-xl-5"
             aria-current={pathname === '/' ? 'page' : undefined}
           >
             About
@@ -35,7 +38,7 @@ const Navigation = () => {
           <Nav.Link
             as={Link}
             href="/work"
-            className={`me-sm-3 me-md-4 me-xl-5 ${pathname === '/work' ? 'active' : ''}`}
+            className="me-sm-3 me-md-4 me-xl-5"
             aria-current={pathname === '/work' ? 'page' : undefined}
           >
             Work
@@ -43,7 +46,7 @@ const Navigation = () => {
           <Nav.Link
             as={Link}
             href="/btw"
-            className={`me-sm-3 me-md-4 me-xl-5 ${pathname === '/btw' ? 'active' : ''}`}
+            className="me-sm-3 me-md-4 me-xl-5"
             aria-current={pathname === '/btw' ? 'page' : undefined}
           >
             BTW
