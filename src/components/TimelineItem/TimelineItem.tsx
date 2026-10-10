@@ -32,7 +32,7 @@ const TimelineItem = ({
         <div
           className={`small text-gray text-start mt-2 mb-0 h5 ${isSelected && 'selected-subtext'}`}
         >
-          {startDate} - {endDate}
+          {startDate} – {endDate}
         </div>
       </div>
     </li>

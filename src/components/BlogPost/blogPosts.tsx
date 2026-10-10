@@ -59,11 +59,11 @@ const blogPosts = [
         trades to fully invest it and approximate their targets.
       </p>,
       <p>
-        Some notable design decisions include ingesting account holdings via user inputs, which is
-        intentional. In my experience, this is much faster than waiting for brokerages to publish
-        account holdings to Plaid, for example, which often occurs only once daily. In addition, the
-        tool collects no cost basis data and uses heuristics to determine asset location, both of
-        which make it simpler and more accessible.
+        Some notable design decisions include ingesting account holdings via user inputs. In my
+        experience, this is much faster than waiting for brokerages to publish account holdings to
+        Plaid, for example, which often occurs only once daily. In addition, the tool collects no
+        cost basis data and uses heuristics to determine asset location, both of which make it
+        simpler and more accessible.
       </p>,
       <p>
         If Three-Fund Rebalance serves your needs, or you&apos;re willing to play around with it,
@@ -162,19 +162,19 @@ const blogPosts = [
         </a>
         , a productivity app for iPhone that pairs with a physical device to prevent distractions.
         Being a productivity junkie myself, and having been underwhelmed by Apple&apos;s native App
-        Limits feature for some time, it was an obvious pickup.
+        Limits feature for some time, I thought it was an obvious pickup.
       </p>,
       <p>
         The device itself is a 3D-printed &quot;brick&quot; with an NFC tag inside. After selecting
         apps to allow, you tap your phone against the Brick to enter &quot;bricked&quot; mode. This
         blocks all other apps, even preventing the bypasses that are built into the App Limits
-        feature (i.e. &quot;Ignore Limit For Today&quot;). To &quot;unbrick&quot; your phone, simply
-        tap your phone against the Brick again and all apps become useable. The idea is that the
+        feature (e.g. &quot;Ignore Limit For Today&quot;). To &quot;unbrick&quot; your phone, simply
+        tap your phone against the Brick again, and all apps become usable. The idea is that the
         Brick is the &quot;key&quot; to your distracting apps that you leave in one location as you
         go about your day.
       </p>,
       <p>
-        Even just a few weeks into using my Brick, my screen time has been cut in half and I feel
+        Even just a few weeks into using my Brick, my screen time has been cut in half, and I feel
         noticeably less distracted during the day. I tap my Brick every morning on my way out of my
         apartment, and *boom*, Instagram, TikTok, and YouTube are no longer at my fingertips until I
         get home. Despite Brick&apos;s lack of convenient features like integrating with Focus and
@@ -183,7 +183,7 @@ const blogPosts = [
       </p>,
       <p>
         Altogether, using my Brick reminds me of something my high-school chemistry teacher used to
-        say: &quot;Whatever job you do, do it with your phone off ◡̈&quot;.
+        say: &quot;Whatever job you do, do it with your phone off ◡̈.&quot;
       </p>,
       <img
         className="rounded-corners shadow my-4 img-fluid mx-auto d-block"
@@ -201,7 +201,7 @@ const blogPosts = [
     body: [
       <p>
         I received this advice from my manager on my very first day working as an intern:{' '}
-        <em>&quot;Be ambitious&quot;</em>. Over time, it has really resonated with me, applying far
+        <em>&quot;Be ambitious.&quot;</em> Over time, it has really resonated with me, applying far
         beyond just the office. This advice has motivated me to set bold goals for myself, be the
         hardest-working person I know, and pursue opportunities even if they seem out of reach.
       </p>,
@@ -215,14 +215,14 @@ const blogPosts = [
     day: 16,
     year: 2023,
     body: [
-      <p>Here’s my six-month review of the 2021 iPad Pro that nobody asked for:</p>,
+      <p>Here&apos;s my six-month review of the 2021 iPad Pro that nobody asked for:</p>,
       <p>I love it.</p>,
       <p>
-        There’s a certain feeling that comes with handwriting notes, and it helps me better retain
-        information. At the same time, typed notes are often more organized and of higher quality,
-        leveraging the suite of tools within apps like Google Docs or Microsoft Word. The iPad
-        succeeds at providing both key features: handwritten note-taking and the digital tools to
-        elevate it.
+        There&apos;s a certain feeling that comes with handwriting notes, and it helps me better
+        retain information. At the same time, typed notes are often more organized and of higher
+        quality, leveraging the suite of tools within apps like Google Docs or Microsoft Word. The
+        iPad succeeds at providing both key features: handwritten note-taking and the digital tools
+        to elevate it.
       </p>,
       <p>
         Using the iPad Pro has truly changed my life as a student. I walk to class with nothing but
@@ -287,13 +287,13 @@ const blogPosts = [
       </p>,
       <p>
         Now, as I format the &lt;p&gt; tags for what I hope will be a long-term blog, this album is
-        playing in the background. While I’m still in search of the perfect turntable and speakers
-        to hear the “crisp, warm” quality that audiophiles preach comes with vinyl, Spotify will cut
-        it for now.
+        playing in the background. While I&apos;m still in search of the perfect turntable and
+        speakers to hear the &quot;crisp, warm&quot; quality that audiophiles preach comes with
+        vinyl, Spotify will cut it for now.
       </p>,
       <p>
         There&apos;s something so special about vinyl records (and physical media in general).
-        They&apos;re nostalgic and cozy. There&apos;s no Instagram notifications interrupting the
+        They&apos;re nostalgic and cozy. There are no Instagram notifications interrupting the
         listening experience. And it&apos;s fun to own the music you listen to and connect with your
         favorite artists in a unique way. I&apos;m really excited to grow my collection, and I
         can&apos;t wait to always have a record playing at home.

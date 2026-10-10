@@ -8,11 +8,11 @@ const aboutMeItems = [
     iconClass: 'fas fa-brain',
   },
   {
-    text: "I currently work in FICC e-trading at J.P. Morgan's Commercial & Investment Bank.",
+    text: "I currently work in electronic trading at J.P. Morgan's Commercial & Investment Bank.",
     iconClass: 'fas fa-university',
   },
   {
-    text: "In my free time, you'll find me working out, testing new recipes, or listening to Tyler, The Creator.",
+    text: "In my free time, you'll find me working out, trying new recipes, or listening to Tyler, The Creator.",
     iconClass: 'fas fa-headphones-alt',
   },
 ];

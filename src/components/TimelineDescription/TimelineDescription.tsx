@@ -14,7 +14,7 @@ const TimelineDescription = ({ organization, roles }: TimelineItem) => {
               <h4 className="h5 d-inline">{role}</h4>
               <p className="h5 d-inline">
                 {' '}
-                | {startDate} - {endDate}
+                | {startDate} – {endDate}
               </p>
             </div>
             <ul className="timeline-ul mt-3">

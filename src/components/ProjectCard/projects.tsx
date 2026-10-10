@@ -2,10 +2,24 @@ import React from 'react';
 
 const projects = [
   {
+    imageURL: '/images/projects/Emerald.png',
+    imageAlt: 'Emerald',
+    projectURL: 'https://emerald.money',
+    title: 'Emerald',
+    date: 'October 2026 – Present',
+    text: (
+      <span>
+        A personal finance app that leverages NLP and RAG to simplify budgeting and cash flow
+        management.
+      </span>
+    ),
+    technologies: <span>React Native, TypeScript, Expo</span>,
+  },
+  {
     imageURL: '/images/projects/ThreeFundRebalance.png',
     imageAlt: 'Three-Fund Rebalance',
     title: 'Three-Fund Rebalance',
-    date: 'August 2026 - September 2026',
+    date: 'August 2026 – September 2026',
     text: (
       <span>
         An interactive CLI that computes trades to rebalance a three-fund portfolio across multiple
@@ -19,7 +33,7 @@ const projects = [
     imageURL: '/images/projects/ImprovingAAVESpeechToText.png',
     imageAlt: 'Improving AAVE Speech-to-Text',
     title: 'Improving AAVE Speech-to-Text',
-    date: 'October 2024 - December 2024',
+    date: 'October 2024 – December 2024',
     text: (
       <span>A fine-tuned OpenAI Whisper model that enhances speech-to-text for AAVE speakers.</span>
     ),
@@ -42,7 +56,7 @@ const projects = [
     imageURL: '/images/projects/BitTorrentClient.png',
     imageAlt: 'BitTorrent Client',
     title: 'BitTorrent Client',
-    date: 'December 2023 - January 2024',
+    date: 'December 2023 – January 2024',
     text: (
       <span>
         A full-featured BitTorrent v1.0 client with support for downloading and uploading files.
@@ -86,7 +100,7 @@ const projects = [
     text: (
       <span>
         A Jupyter notebook analyzing how Elon Musk&apos;s tweets correlate with Tesla order
-        cancellation.
+        cancellations.
       </span>
     ),
     codeURL: 'https://github.com/melvinrajendran/tweets-and-tesla-cancellations',
@@ -97,7 +111,7 @@ const projects = [
     imageAlt: 'Convertify',
     projectURL: 'https://convertify.onrender.com',
     title: 'Convertify',
-    date: 'December 2022 - January 2023',
+    date: 'December 2022 – January 2023',
     text: (
       <span>
         A web application that enables Spotify users to quickly convert their playlists between

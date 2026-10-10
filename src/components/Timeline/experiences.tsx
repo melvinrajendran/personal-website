@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-key */
 import React from 'react';
 
 const experiences = [
@@ -6,12 +5,12 @@ const experiences = [
     organization: 'J.P. Morgan',
     roles: [
       {
-        role: 'Software Engineer',
+        role: 'Software Engineer I',
         startDate: 'February 2025',
         endDate: 'Present',
         bullets: [
-          'Work on the FICC e-trading platform in the Commercial & Investment Bank.',
-          'Develop features for credit-bond trading, leveraging technologies including Java, Maven, Spring Boot, Cucumber, AMPS, and Jenkins.',
+          'Develop low-latency, highly available Spring Boot microservices that power fixed-income electronic trading, enabling high-volume request-for-quote and order execution.',
+          'Own technical production support for microservices that facilitate portfolio trading, performing incident root-cause analysis, driving remediation, and coordinating cross-team fixes to prevent recurrence.',
         ],
       },
     ],
@@ -24,8 +23,9 @@ const experiences = [
         startDate: 'May 2024',
         endDate: 'August 2024',
         bullets: [
-          'Worked on the Credit Platform team to develop and maintain microservices that are leveraged across all consumer and business credit products.',
-          'Successfully consolidated 3 components for the Credit Accounts v2 API, which enables retrieving and managing credit account information, obtaining credit line offers, onboarding account owners, and determining account closure eligibility.',
+          'Consolidated legacy Spring Boot microservices into a single service for retrieving and managing consumer and business credit account data. Shipped to production and cut p99 latency by removing intermediate service hops.',
+          'Kept existing response contracts backward compatible so all downstream clients migrated without code changes, enabling a phased rollout with instant rollback to the legacy path.',
+          'Reduced deployment overhead and retired redundant code through the consolidation, saving the team upgrade and maintenance work. Maintained unit and integration test coverage throughout the migration.',
         ],
       },
       {
@@ -33,29 +33,10 @@ const experiences = [
         startDate: 'June 2023',
         endDate: 'August 2023',
         bullets: [
-          <span>
-            Worked on the Credit User Experience team to develop full-stack web applications to
-            acquire and service users for the{' '}
-            <a
-              href="https://www.paypal.com/us/digital-wallet/manage-money/paypal-cashback-mastercard"
-              className="link-off-white"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              PayPal Cashback Mastercard
-            </a>{' '}
-            and{' '}
-            <a
-              href="https://www.paypal.com/us/digital-wallet/ways-to-pay/credit-services/paypal-credit"
-              className="link-off-white"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              PayPal Credit
-            </a>{' '}
-            products.
-          </span>,
-          'Built Credit Admin, a tool for 200+ PayPal developers and stakeholders to triage and remediate production issues related to credit applications, credit accounts, and associated services, as well as perform administrative functions.',
+          'Built Credit Admin, an internal triage and remediation platform adopted by engineers and stakeholders to diagnose production issues across credit applications, accounts, and downstream services.',
+          'Cut code required per feature implementation by standardizing on fully typed REST clients generated from OpenAPI/Swagger specs, eliminating hand-written request and response models.',
+          'Piloted Next.js and tRPC at the firm, fetching data on the server to speed up page loads and implementing end-to-end type safety. Created a reference architecture for wider adoption among partner teams.',
+          'Established an inner-source contribution model (contribution guides, PR templates, review process) enabling partner teams to ship features to the platform independently, removing the core maintainers as a delivery bottleneck.',
         ],
       },
       {
@@ -63,11 +44,8 @@ const experiences = [
         startDate: 'May 2022',
         endDate: 'August 2022',
         bullets: [
-          <span>
-            Revamped the testing tool for the Credit Application Experience, significantly improving
-            data setup speed for developers testing the various user flows.
-          </span>,
-          "Developed the user interface and service calls for the Choose Your Credit Offers page (presents financing options to users in checkout), furthering the team's ongoing migration effort.",
+          'Built the React UI and GraphQL integration for Choose Your Credit Offers, a page in PayPal checkout presenting credit financing options to users, shipping to production with Jest test coverage across all user flows.',
+          'Revamped the internal tool engineers use to create test customer profiles and simulate credit acquisition scenarios, adding sensible defaults and reusable profiles that cut test data setup time.',
         ],
       },
     ],
