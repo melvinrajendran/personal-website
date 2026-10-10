@@ -5,12 +5,6 @@ nav {
   background-color: $offWhite;
 }
 
-.navbar-toggler {
-  border: none;
-  font-size: 0.875rem;
-  margin-top: 0.35rem;
-}
-
 .nav-link {
   font-weight: 500;
   text-decoration: underline 0.2em;
@@ -58,7 +52,31 @@ nav {
 
 .letter-icon {
   font-family: $iconFontFamily;
-  top: 1.75rem;
+}
+
+// Let the nav spread its items evenly across small screens
+@media (max-width: 575.98px) {
+  .letter-icon {
+    margin-right: 0;
+  }
+}
+
+// Match the spacing between nav links on medium screens
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .letter-icon {
+    margin-right: 1.5rem;
+  }
+}
+
+// Center the letter in the navbar on larger screens
+@media (min-width: 992px) {
+  .letter-icon {
+    position: fixed;
+    top: 1.75rem;
+    left: 50%;
+    margin-right: 0;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .letter {
